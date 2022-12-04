@@ -9,10 +9,19 @@
  */
 
 import React from 'react';
+import { useColorScheme } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+
+import Home from './src/components/Home';
+import { darkTheme, lightTheme } from './src/common/theme';
 
 const App = () => {
+  const scheme = useColorScheme();
+
   return (
-    <></>
+    <NavigationContainer theme={scheme === 'dark' ? darkTheme : lightTheme}>
+      <Home />
+    </NavigationContainer>
   );
 };
 

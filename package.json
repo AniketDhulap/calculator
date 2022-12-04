@@ -11,9 +11,12 @@
     "lint-fix": "eslint --fix --ext .js,.jsx ."
   },
   "dependencies": {
+    "@react-navigation/native": "^6.0.16",
+    "@types/styled-components": "^5.1.26",
     "eslint-config-prettier": "^8.5.0",
     "react": "18.1.0",
-    "react-native": "0.70.6"
+    "react-native": "0.70.6",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
