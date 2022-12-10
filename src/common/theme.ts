@@ -17,17 +17,17 @@ const lightTheme = {
     text: '#3a3b3f', //primary text
     notification: '#d6d7dc', //secondary text
     primary: '#9ea4b0', // number background dark
-    card: '#e7eaef', // number background light
+    card: '#f5f4f9', // number background light
     border: '#72747f', //number font color
   },
 };
 
 const COLOURS = {
   THEME: '#dc8b3a',
-  DARK_THEME: '#ba6930',
+  DARK_THEME: '#ae5c2a',
   OPERATOR_TEXT_COLOR: '#e5c68f',
-  CONTROL_BACKGROUND_DARK: '#4a5362',
-  CONTROL_BACKGROUND_LIGHT: '#626b7a',
+  CONTROL_BACKGROUND_DARK: '#606978',
+  CONTROL_BACKGROUND_LIGHT: '#a1aabc',
 };
 
 export {darkTheme, lightTheme, COLOURS};
